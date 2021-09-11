@@ -9,12 +9,14 @@
     padding: 20px 40px;
   }
 }
-
+/*
 .home-page__bg-square {
   display: none;
 }
 
+
 @media (min-width: 1024px) {
+  
   .home-page__bg-square {
     display: block;
     position: absolute;
@@ -31,7 +33,9 @@
     background-color: var(--color-bg-accent);
     z-index: -1;
   }
+  
 }
+*/
 
 .hero {
   display: grid;
