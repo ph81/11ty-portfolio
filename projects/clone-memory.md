@@ -10,7 +10,7 @@ tags:
   - CSS Grid
 ---
 
-### An Orphan Black memory game: find all the clones and one of their monitors.  
+### An Orphan Black memory game: find all the clones and one of their monitors  
 
 This game is based on [Tania Rascia's Memory Game Tutorial](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/), with the addition of a timer and moves counter. It's responsive, so it can be played on desktop or mobile.
 
@@ -28,3 +28,11 @@ This game is based on [Tania Rascia's Memory Game Tutorial](https://www.taniaras
 * Krystal Goderitch
 * Camila Torres
 * Delphine Cormier
+
+### Features
+
+* CSS Grid
+* DOM manipulation
+* Responsive design
+
+[Github](https://github.com/ph81/clonememory) | [Live demo](https://ph81.github.io/clonememory/)

@@ -7,15 +7,14 @@ summary: Oxygen providers available in Monterrey NL.
 
 tags:
   - React
-  - React hooks
   - Airtable
   - Netlify
 ---
 
-### Task
+### Features
 
-Website developed with React, Airtable and Netlify.
+- Airtable database with CRUD functionality as a backend
+- React hooks (useState, useEffect)
+- Bootstrap V4
 
-### Solution
-
-Magic!
+[Github](https://github.com/ph81/oxmty) | [Live demo](https://oxigenomty.cc)

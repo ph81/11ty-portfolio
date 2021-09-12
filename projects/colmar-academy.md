@@ -10,11 +10,13 @@ tags:
   - CSS
   - Flexbox
 ---
-
 ### Task
 
 Capstone project for CodeAcademy, responsive website coded with pure HTML and CSS.
 
-### Solution
+### Features
 
-Magic!
+- Flexbox
+- Responsive design
+
+[Github](https://github.com/ph81/colmar) | [Live demo](https://ph81.github.io/colmar/)

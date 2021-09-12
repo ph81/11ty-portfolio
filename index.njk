@@ -3,7 +3,7 @@ layout: layouts/base.njk
 section: home
 ---
 <div class="home-page">
-	<div class="home-page__bg-square"></div>
+	<!--<div class="home-page__bg-square"></div>-->
 
   <div class="hero">
     <div class="hero__col">
@@ -12,6 +12,7 @@ section: home
         <h2 class="hero__subtitle">{{ home.subtitle }}</h2>
       {% endif %}
     </div>
+   
     <div class="hero__col">
       <img
         class="hero__image shadow"
@@ -21,6 +22,7 @@ section: home
         height="1000px"
         loading="lazy">
     </div>
+   
   </div>
 
   <hr>
@@ -30,9 +32,11 @@ section: home
 
 
   <hr>
+  <!--
   <h2>Articles</h2>
   {% set postslist = collections.post %}
   {% set show_postslist_tags = false %}
   {% set limit = 3 %}
   {% include "components/postslist.njk" %}
+  -->
 </div>
