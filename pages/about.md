@@ -21,7 +21,3 @@ eleventyNavigation:
 * Music enthusiast, sci-fi fan, comic-con goer, podcaster.
 * 💥 I built this site using [Eleventy](https://www.11ty.dev/)
 * 🌈 Thanks for reading!
-
-
-
-![Fern in Hand](/static/img/fern-in-hand.jpeg "Fern in Hand")

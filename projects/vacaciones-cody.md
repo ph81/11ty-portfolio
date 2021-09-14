@@ -10,6 +10,8 @@ tags:
   - CSS
   - Flexbox
 ---
+![Landing page image](https://res.cloudinary.com/phearts/image/upload/v1631600489/github/Screenshot_6.jpg)
+
 ### Task
 
 Landing page proposal for Código Facilito Summer Contest

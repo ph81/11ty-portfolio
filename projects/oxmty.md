@@ -11,10 +11,14 @@ tags:
   - Netlify
 ---
 
+![Oxígeno MTY image](https://res.cloudinary.com/phearts/image/upload/v1625382679/github/oxigenomty01.jpg)
+
 ### Features
 
 - Airtable database with CRUD functionality as a backend
 - React hooks (useState, useEffect)
 - Bootstrap V4
+
+![Directory](https://res.cloudinary.com/phearts/image/upload/v1625382678/github/oxigenomty02.jpg)
 
 [Github](https://github.com/ph81/oxmty) | [Live demo](https://oxigenomty.cc)
