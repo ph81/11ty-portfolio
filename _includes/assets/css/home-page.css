@@ -85,6 +85,14 @@
   transition: filter 0.4s ease-out;
 }
 
+.hero__icon {
+  padding: 8px;
+}
+
+.hero__link:hover {
+  border-bottom: none;
+}
+
 .hero__title {
   margin-top: 0;
 }
