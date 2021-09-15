@@ -72,6 +72,7 @@
 }
 
 .site-header__link:hover {
-  border-bottom: none;
+  border-bottom: none; 
+  text-shadow: 0px 0px 1px var(–--color-secondary);
 }
 

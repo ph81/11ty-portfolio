@@ -1,6 +1,6 @@
 {
-  "title": "Hello!, my name is Edith",
-  "image": "/static/img/portrait.png",
+  "title": "Hi!, I'm Edith",
+  "image": "/static/img/dog_meme.jpg",
   "subtitle": "Geek and web developer",
   "image_alt": "Portrait"
 }
