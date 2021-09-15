@@ -42,3 +42,8 @@
 .project-card__demo {
   font-size: 1.4rem;
 }
+
+.project-card__image {
+  width: 350px;
+  height: 190px;
+}
