@@ -15,7 +15,7 @@
           </a>
         </h4>
         {% if post.data.image %}
-          <img src="{{ post.data.image }}" class="project-card__image" />
+          <img src="{{ post.data.image }}" class="project-card__image" alt="Project image" loading="lazy">
         {% endif %}
         {% if post.data.summary %}
           <p>
@@ -24,7 +24,7 @@
         {% endif %}
         {% if post.data.repo %}
           <p class="project-card__demo">
-          <a href="{{post.data.repo }}">Repo</a> | <a href="{{post.data.site }}">Live site</a>
+          <a href="{{post.data.repo }}" target="_blank" rel="noopener noreferrer">Code</a> | <a href="{{post.data.site }}" target="_blank" rel="noopener noreferrer">Live site</a>
         </p>
         {% endif %}
         {% if post.data.tags %}
