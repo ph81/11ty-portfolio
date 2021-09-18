@@ -24,7 +24,7 @@
         {% endif %}
         {% if post.data.repo %}
           <p class="project-card__demo">
-          <a href="{{post.data.repo }}" target="_blank" rel="noopener noreferrer">Code</a> | <a href="{{post.data.site }}" target="_blank" rel="noopener noreferrer">Live site</a>
+          <a href="{{post.data.repo }}" target="_blank" rel="noopener noreferrer" aria-label="Code">Code</a> | <a href="{{post.data.site }}" target="_blank" rel="noopener noreferrer" aria-label="Live site">Live site</a>
         </p>
         {% endif %}
         {% if post.data.tags %}
