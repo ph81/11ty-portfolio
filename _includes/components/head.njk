@@ -4,6 +4,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ renderData.title or title or metadata.title }}</title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or summary or metadata.description }}">
+    <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ metadata.url }}">
+  <meta property="og:title" content="{{ metadata.title }}">
+  <meta property="og:description" content="{{ metaDescription or renderData.metaDescription or summary or metadata.description }}">
+  <meta property="og:image" content="{{ metadata.meta_image }}">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ metadata.url }}">
+  <meta property="twitter:title" content="{{ metadata.title }}">
+  <meta property="twitter:description" content="{{ metaDescription or renderData.metaDescription or summary or metadata.description }}">
+  <meta property="twitter:image" content="{{ metadata.meta_image }}">
+
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
     {% include "assets/css/normalize.css" %}
