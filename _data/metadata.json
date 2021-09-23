@@ -2,5 +2,6 @@
   "title": "Hi!, I'm Edith",
   "description": "Edith Mejía portfolio.",
   "url": "https://edithmg.netlify.app",
-  "meta_image": "/static/img/portfolio.jpg"
+  "meta_image": "/static/img/portfolio.jpg",
+  "header": "EM"
 }
