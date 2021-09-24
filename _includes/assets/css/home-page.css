@@ -86,6 +86,13 @@
   align-items: center;
 }
 
+@media (max-width: 480px) {
+  .hero__image {
+    width: 240px;
+    height: 240px;
+  }
+ }
+
 .hero__image {
   margin-bottom: 0;
   border-radius: var(--border-radius);
@@ -143,6 +150,12 @@
 .hero__sections a:hover {
   text-decoration: none;
   border-bottom: none;
+}
+
+@media (max-width: 480px) {
+ .hero__sections {
+   flex-direction: column;
+ }
 }
 
 
