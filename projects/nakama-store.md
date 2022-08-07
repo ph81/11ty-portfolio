@@ -4,8 +4,8 @@ emoji: 🛍️
 metaDescription: This is a sample meta description. If one is not present in your page/project's front matter, the default metadata.desciption will be used instead.
 date: 2021-11-19T00:00:00.000Z
 image: 'https://res.cloudinary.com/phearts/image/upload/v1637485254/portfolio/nakama1.jpg'
-repo: 'https://github.com/ph81/wa-react-2021-q4-capstone-project'
-site: 'https://nakama-store-wzl.netlify.app/'
+repo: 'https://github.com/ph81/react-apprenticeship-capstone4'
+site: 'https://nkmstore2022.netlify.app/'
 summary: Wizeline React Bootcamp Capstone project
 
 tags:
@@ -17,7 +17,7 @@ tags:
 
 ![Nakama Store home](https://res.cloudinary.com/phearts/image/upload/v1637485254/portfolio/nakama1.jpg)
 
-Nakama Store was my Capstone project for the Wizeline React Bootcamp (fall 2021).
+Nakama Store was my Capstone project for the Wizeline React Bootcamp (winter 2022).
 
 ### Task
 
@@ -32,4 +32,4 @@ Develop an ecommerce store through 5 weeks (sprints) applying the concepts and b
 
 ![Nakama Store](https://res.cloudinary.com/phearts/image/upload/v1637485254/portfolio/nakama2.jpg)
 
-[Github](https://github.com/ph81/wa-react-2021-q4-capstone-project) | [Live demo](https://nakama-store-wzl.netlify.app/)
+[Github](https://github.com/ph81/react-apprenticeship-capstone4) | [Live demo](https://nkmstore2022.netlify.app/)
