@@ -30,6 +30,10 @@
   margin: 0 10px 0 0;
 }
 
+.site-header__dark {
+  display: none;
+}
+
 .site-header__nav {
   width: 100%;
   margin-top: 15px;
@@ -43,7 +47,7 @@
 }
 
 .site-header__items {
-	display: flex;
+  display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -53,7 +57,7 @@
 }
 
 .site-header__item {
-	margin: 0 6px;
+  margin: 0 6px;
   font-weight: 500;
   font-size: 14px;
 }
@@ -72,7 +76,23 @@
 }
 
 .site-header__link:hover {
-  border-bottom: none; 
+  border-bottom: none;
   text-shadow: 0px 0px 1px var(–--color-secondary);
 }
 
+.site-header__theme {
+  color: var(--color-primary);
+  background-color: var(--color-bg);
+  border: none;
+}
+
+[data-theme="light"] .d-none,
+[data-theme="dark"] .d-none {
+  display: none;
+}
+
+[data-theme="light"] .d-block-light,
+[data-theme="dark"] .d-block-dark {
+  display: block !important;
+  font-size: 24px;
+}
