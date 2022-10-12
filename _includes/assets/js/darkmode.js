@@ -1,6 +1,5 @@
 const showTheme = () => {
   const toggle = document.getElementById("theme-toggle");
-  const iconToggle = document.getElementById("icon-toggle");
 
   let storedTheme = localStorage.getItem('theme') || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
   console.log(storedTheme);

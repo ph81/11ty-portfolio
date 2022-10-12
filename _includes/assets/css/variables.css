@@ -16,12 +16,13 @@ html[data-theme="light"] {
   --color-secondary: #2f5bc2;
   /* Background Colors */
   --color-bg: #ffffff;
-  --color-bg-secondary: #f7f7f7;
-  --color-bg-accent: #c79191;
+  --color-bg-secondary: #543fd7;
+  --color-bg-accent: #f7f7f9;
   /* Text and Border Colors */
   --color-text: #222222;
   --color-text-alt: #ffffff;
   --color-border: rgba(0, 0, 0, 0.06);
+  --color-link: #828fff;
   /* Status Colors */
   --color-danger: #e03e3e;
 }
@@ -32,12 +33,13 @@ html[data-theme="dark"] {
   --color-secondary: #8a8f98;
   /* Background Colors */
   --color-bg: #212a2e;
-  --color-bg-secondary: #263238;
+  --color-bg-secondary: #543fd7;
   --color-bg-accent: #c79191;
   /* Text and Border Colors */
   --color-text: #f7f8f8;
-  --color-text-alt: #8a8f98;
+  --color-text-alt: #fff;
   --color-border: rgba(0, 0, 0, 0.06);
+  --color-link: #828fff;
   /* Status Colors */
   --color-danger: #e03e3e;
 }

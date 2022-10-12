@@ -5,6 +5,7 @@
   justify-content: space-between;
   padding: 15px;
   border-top: 3px solid var(--color-secondary);
+  background-color: var(--color-bg-secondary);
 }
 
 @media (min-width: 1024px) {
@@ -72,7 +73,7 @@
 .site-header__link {
   display: flex;
   align-items: center;
-  color: var(--color-text);
+  color: var(--color-text-alt);
 }
 
 .site-header__link:hover {
@@ -82,7 +83,7 @@
 
 .site-header__theme {
   color: var(--color-primary);
-  background-color: var(--color-bg);
+  background-color: var(--color-bg-secondary);
   border: none;
 }
 
