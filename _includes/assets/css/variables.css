@@ -13,7 +13,7 @@ html:root {
 html[data-theme="light"] {
   /* Brand Colors */
   --color-primary: #222222;
-  --color-secondary: #2f5bc2;
+  --color-secondary: #543fd7;
   /* Background Colors */
   --color-bg: #ffffff;
   --color-bg-secondary: #543fd7;
@@ -30,7 +30,7 @@ html[data-theme="light"] {
 html[data-theme="dark"] {
   /* Brand Colors */
   --color-primary: #f7f8f8;
-  --color-secondary: #8a8f98;
+  --color-secondary: #543fd7;
   /* Background Colors */
   --color-bg: #212a2e;
   --color-bg-secondary: #543fd7;
@@ -38,7 +38,7 @@ html[data-theme="dark"] {
   /* Text and Border Colors */
   --color-text: #f7f8f8;
   --color-text-alt: #fff;
-  --color-border: rgba(0, 0, 0, 0.06);
+  --color-border: #828fff;
   --color-link: #828fff;
   /* Status Colors */
   --color-danger: #e03e3e;

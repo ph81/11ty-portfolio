@@ -67,13 +67,3 @@
   color: var(--color-text-alt);
   filter: brightness(90%);
 }
-
-[data-theme="dark"] .form-control {
-  background-color: rgba(0, 0, 0, 0.6);
-  border-color: rgba(0, 0, 0, 0.6);
-  color: var(--text-color) !important;
-}
-
-[data-theme="dark"] .form-control:focus {
-  color: var(--text-color) !important;
-}
