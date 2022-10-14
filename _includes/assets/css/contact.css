@@ -1,3 +1,31 @@
 .contact-form__submit {
   display: block;
 }
+
+[data-theme="dark"] .form-control {
+  border-color: rgba(0, 0, 0, 0.6);
+  color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .form-control input,
+textarea {
+  background-color: var(--color-bg);
+}
+
+[data-theme="dark"] .form-control:focus {
+  color: var(--text-color) !important;
+}
+
+[data-theme="light"] .form-control {
+  border-color: rgba(0, 0, 0, 0.6);
+  color: var(--text-color) !important;
+}
+
+[data-theme="light"] .form-control:focus {
+  color: var(--text-color) !important;
+}
+
+[data-theme="light"] .form-control input,
+textarea {
+  background-color: var(--color-bg);
+}

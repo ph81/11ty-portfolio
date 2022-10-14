@@ -2,95 +2,62 @@
 layout: layouts/base.njk
 section: home
 ---
-<div class="home-page">
-	<!--<div class="home-page__bg-square"></div>-->
 
-  <div class="hero">
-    <div class="hero__col__left">
-      <h1 class="hero__title gradient-text">{{ home.title }}</h1>
-      {% if home.subtitle %}
-        <h2 class="hero__subtitle">{{ home.subtitle }}</h2>
-      {% endif %}
-      <span>
-        <a class="hero__link" href="https://www.linkedin.com/in/emejiag/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
-          <img
-            class="hero__icon" src="/static/img/linkedin.svg" 
-            alt="Linkedin"
-            width="32px" height="32px" 
-            loading="lazy">  
+<section class="home-page">
+  <section id="home">
+    <div class="hero">
+      <div class="hero__col__left">
+        <h1 class="hero__title gradient-text">{{ home.title }}</h1>
+        {% if home.subtitle %}
+          <h2 class="hero__subtitle">{{ home.subtitle }}</h2>
+        {% endif %}
+        <span>
+          <a
+            class="hero__link"
+            href="https://www.linkedin.com/in/emejiag/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Linkedin">
+            {{ '/static/img/linkedin.svg' | svgContents("hero__icon") | safe }}</a>
+          <a class="hero__link" href="https://github.com/ph81/" target="_blank" rel="noopener noreferrer" aria-label="Github">
+            {{ '/static/img/github.svg' | svgContents("hero__icon") | safe }}</a>
+          <a
+            class="hero__link"
+            href="https://www.dropbox.com/s/7f6nr12lniog9qe/Resume2022.pdf?dl=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Resume">
+            {{ '/static/img/doc.svg' | svgContents("hero__icon") | safe }}</a>
+          <a class="hero__link" href="https://codepen.io/phearts/" target="_blank" rel="noopener noreferrer" aria-label="Codepen">
+            {{ '/static/img/codepen.svg' | svgContents("hero__icon") | safe }}</a>
+          <a
+            class="hero__link"
+            href="https://twitter.com/paperheartsmx"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter">
+            {{ '/static/img/twitter.svg' | svgContents("hero__icon") | safe }}</a>
+        </span>
+      </div>
+      <div class="hero__col__right">
+        <img class="hero__image shadow" src="{% if home.image %}{{ home.image }}{% else %}https://source.unsplash.com/random/600x600{% endif %}" aria-label="{{ home.image_alt }}" width="600px" height="600px" loading="lazy"></div>
+      </div>
+      <div class="hero__sections">
+        <a href="#projects">
+          <span class="button hero__button__primary">My projects</span>
         </a>
-        <a class="hero__link" href="https://github.com/ph81/" target="_blank" rel="noopener noreferrer" aria-label="Github">
-          <img
-            class="hero__icon" src="/static/img/github.svg" 
-            alt="Github"
-            width="32px" height="32px" 
-            loading="lazy"> 
+        <a href="/contact">
+          <span class="button hero__button__outline">Get in touch</span>
         </a>
-        <a class="hero__link" href="https://www.dropbox.com/s/7f6nr12lniog9qe/Resume2022.pdf?dl=0" target="_blank" rel="noopener noreferrer" aria-label="Resume">
-          <img
-            class="hero__icon" src="/static/img/doc.svg"
-            alt="Resume"
-            width="32px" height="32px" 
-            loading="lazy"> 
-        </a>
-        <a class="hero__link" href="https://codepen.io/phearts/" target="_blank" rel="noopener noreferrer" aria-label="Codepen">
-          <img
-            class="hero__icon" src="/static/img/codepen.svg"
-            alt="Codepen"
-            width="32px" height="32px" 
-            loading="lazy"> 
-        </a>
-         <a class="hero__link" href="https://twitter.com/paperheartsmx" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-          <img
-            class="hero__icon" src="/static/img/twitter.svg"
-            alt="Twitter"
-            width="32px" height="32px"
-            loading="lazy"> 
-        </a>
-      </span>
-    </div>
-   
-    <div class="hero__col__right">
-      <img
-        class="hero__image shadow"
-        src="{% if home.image %}{{ home.image }}{% else %}https://source.unsplash.com/random/600x600{% endif %}"
-        aria-label="{{ home.image_alt }}"
-        width="600px"
-        height="600px"
-        loading="lazy">
-    </div>
-
-    
-   
- 
-   
-  </div>
-  
-   <div class="hero__sections">
-     
-      <a href="#projects">
-        <span class="button hero__button__primary">My projects</span>
-      </a>
-
-      <a href="/contact">
-        <span class="button hero__button__outline">Get in touch</span>
-      </a>
-      
-    </div>
-
-  <hr>
-  <section id="projects">
-    <h2>Projects</h2>
-    {% set projectlist = collections.project %}
-    {% include "components/projectlist.njk" %}
-
-  </section>
-  <hr>
-  <!--
-  <h2>Articles</h2>
-  {% set postslist = collections.post %}
-  {% set show_postslist_tags = false %}
-  {% set limit = 3 %}
-  {% include "components/postslist.njk" %}
-  -->
-</div>
+      </div>
+    </section>
+    <hr>
+      <section id="projects">
+        <h2>Projects</h2>
+        {% set projectlist = collections.project %}
+        {% include "components/projectlist.njk" %}
+      </section>
+      <hr>
+        <!-- <h2>Articles</h2> {% set postslist = collections.post %} {% set show_postslist_tags = false %} {% set limit = 3 %}
+        {% include "components/postslist.njk" %} -->
+      </section>

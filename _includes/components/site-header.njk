@@ -1,24 +1,24 @@
 <header class="site-header">
   <span class="site-header__logo-container">
     <a class="site-header__link" href="{{ '/' | url }}">
-      <img
-        class="site-header__logo"
-        src="/static/img/logo.png"
-        alt="Logo"
-        width="25px"
-        height="25px"
-        loading="lazy">
-      {{ metadata.header }}
-    </a>
-  </span>
-  <nav class="site-header__nav">
-    {% set navPages = collections.all | eleventyNavigation %}
-    <ul class="site-header__items">
-    {%- for entry in navPages %}
-      <li class="site-header__item">
-        <a class="site-header__link" href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-      </li>
-    {%- endfor %}
-    </ul>
-  </nav>
-</header>
+      <img class="site-header__logo" src="/static/img/logo.png" alt="Logo" width="25px" height="25px" loading="lazy">
+        {{ metadata.header }}
+      </a>
+    </span>
+    <nav class="site-header__nav">
+      {% set navPages = collections.all | eleventyNavigation %}
+      <ul class="site-header__items">
+        {%- for entry in navPages %}
+          <li class="site-header__item">
+            <a class="site-header__link" href="{{ entry.url | url }}" {% if entry.url == page.url %} data-current="current item" {% endif %}>{{ entry.title }}</a>
+          </li>
+        {%- endfor %}
+        <button id="theme-toggle" type="button" class="site-header__theme">
+          <span class="d-block-light d-none">
+            🌝</span>
+          <span class="d-block-dark d-none">
+            🌞</span>
+        </button>
+      </ul>
+    </nav>
+  </header>

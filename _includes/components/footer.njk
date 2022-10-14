@@ -1,15 +1,19 @@
 <footer class="site-footer">
   <small>
-    Made with 💜 by <a href="https://edithmg.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Creator">Edith</a>.
+    Made with 💛 by Edith
   </small>
 </footer>
-
+{% set js %}
+{% include "assets/js/darkmode.js" %}
+{% endset %}
+<script>{{ js | jsmin | safe }}</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BQHXKEZM5J"></script>
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-BQHXKEZM5J"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() {
+    dataLayer.push(arguments);
+  }
   gtag('js', new Date());
-
   gtag('config', 'G-BQHXKEZM5J');
 </script>
