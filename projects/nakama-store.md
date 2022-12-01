@@ -29,6 +29,7 @@ Develop an ecommerce store through 5 weeks (sprints) applying the concepts and b
 * Shopping cart functions
 * Search products
 * Fetch data from a [Prismic](https://prismic.io/) API.
+* Styled components
 
 ![Nakama Store](https://res.cloudinary.com/phearts/image/upload/v1637485254/portfolio/nakama2.jpg)
 
