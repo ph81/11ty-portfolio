@@ -2,10 +2,9 @@ const showTheme = () => {
   const toggle = document.getElementById("theme-toggle");
 
   let storedTheme = localStorage.getItem('theme') || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-  console.log(storedTheme);
+ 
   if (storedTheme)
       document.documentElement.setAttribute('data-theme', storedTheme)
-
 
   toggle.onclick = () => {
       let currentTheme = document.documentElement.getAttribute("data-theme");
