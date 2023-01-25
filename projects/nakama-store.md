@@ -2,7 +2,7 @@
 title: Nakama Store
 emoji: 🛍️
 metaDescription: This is a sample meta description. If one is not present in your page/project's front matter, the default metadata.desciption will be used instead.
-date: 2021-11-19T00:00:00.000Z
+date: 2022-12-19
 image: 'https://res.cloudinary.com/phearts/image/upload/v1637485254/portfolio/nakama1.jpg'
 repo: 'https://github.com/ph81/react-apprenticeship-capstone4'
 site: 'https://nkmstore2022.netlify.app/'
